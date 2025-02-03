@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { NumberParentComponent } from "./components/number-parent/number-parent.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [NumberParentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

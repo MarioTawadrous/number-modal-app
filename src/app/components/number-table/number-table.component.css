@@ -1,0 +1,125 @@
+/* table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f1f1f1;
+} */
+
+
+/* table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f1f1f1;
+} */
+
+
+
+/* Section Styling */
+.data-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.section-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Table Styles */
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background: #e3e3e3;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f8f8f8;
+  transition: 0.3s;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  padding: 8px 15px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #007bff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.pagination a:hover,
+.pagination a.active {
+  background: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+  th,
+  td {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .pagination a {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}

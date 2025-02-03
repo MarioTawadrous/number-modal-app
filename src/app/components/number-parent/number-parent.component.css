@@ -1,0 +1,67 @@
+/* .container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+} */
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: #F8F8F8;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 900px;
+  position: relative;
+}
+
+/* .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+} */
+
+/* ------------------------------------------------------- */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  /* border-radius: 20px; */
+  padding: 5px 10px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  direction: rtl;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.text {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+.hashtag {
+  font-size: 14px;
+  color: blue;
+  cursor: pointer;
+}

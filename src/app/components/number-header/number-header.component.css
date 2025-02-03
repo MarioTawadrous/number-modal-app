@@ -1,0 +1,185 @@
+/* .header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.details {
+  margin-top: 10px;
+  font-size: 14px;
+} */
+
+
+
+/* .header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.details {
+  margin-top: 10px;
+  font-size: 14px;
+} */
+
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  direction: rtl;
+  text-align: right;
+  gap: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Three dots menu */
+.menu {
+  font-size: 22px;
+  cursor: pointer;
+  color: #777;
+}
+
+/* Number & Button Section */
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: #EAF8F3;
+  padding: 12px;
+  border-radius: 12px;
+  min-width: 130px;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+.btn {
+  background: #28c198;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+
+.btn:hover {
+  background: #22a57d;
+}
+
+/* Info Section */
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 12px;
+  width: 100%;
+}
+
+/* Each row of data */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.info-item {
+  text-align: right;
+  min-width: 160px;
+}
+
+.info-item span {
+  display: block;
+  color: #777;
+  font-size: 14px;
+}
+
+.info-item strong {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Flag next to the country name */
+.flag-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.flag {
+  width: 20px;
+  height: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .info {
+    align-items: center;
+  }
+
+  .info-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .left-section {
+    min-width: auto;
+  }
+
+  .menu {
+    order: -1;
+  }
+}
